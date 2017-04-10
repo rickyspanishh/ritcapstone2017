@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ritcapstone2017
+  host: ritcapstone2017
+  disk_quota: 1024M
+  services:
+  - ritcapstone2017-cloudantNoSQLDB
+  - ritcapstone2017-iotf-service
